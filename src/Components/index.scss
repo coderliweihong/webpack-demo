@@ -1,0 +1,21 @@
+$bgColor: #9cea18;
+$fontColor: #fff;
+html,body{
+  background-color: $bgColor;
+  color: $fontColor;
+  @keyframes mymove {
+    0% {top:0;}
+    25% {top:200px;}
+    50% {top:100px;}
+    75% {top:200px;}
+    100% {top:0;}
+  }
+  .box {
+    width: 100px;
+    height: 100px;
+    background-color: #ffe600;
+    animation: mymove 10s infinite linear;
+    position: absolute;
+    transform: rotate(45deg);
+  }
+}
