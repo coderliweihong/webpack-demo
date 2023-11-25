@@ -1,3 +1,0 @@
-html,body{background-color:#9cea18;color:#fff}@-webkit-keyframes mymove{0%{top:0}25%{top:200px}50%{top:100px}75%{top:200px}100%{top:0}}@-moz-keyframes mymove{0%{top:0}25%{top:200px}50%{top:100px}75%{top:200px}100%{top:0}}@keyframes mymove{0%{top:0}25%{top:200px}50%{top:100px}75%{top:200px}100%{top:0}}html .box,body .box{width:100px;height:100px;background-color:#ffe600;-webkit-animation:mymove 10s infinite linear;-moz-animation:mymove 10s infinite linear;animation:mymove 10s infinite linear;position:absolute;-webkit-transform:rotate(45deg);-moz-transform:rotate(45deg);transform:rotate(45deg)}
-
-/*# sourceMappingURL=main.css.map*/
